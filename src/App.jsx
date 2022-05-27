@@ -12,6 +12,7 @@ function App() {
       <div className="container">
         <MyComponent person={person} />
       </div>
+      <div></div>
     </div>
   );
 }
