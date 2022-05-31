@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import MyComponent from './components/MyComponent';
+import Estado from './components/Estado';
 
 function App() {
   const numbers = [1, 2, 3];
@@ -19,6 +20,8 @@ function App() {
           reactElement={<li></li>}
         />
       </div>
+      <hr />
+      <Estado />
       <div></div>
     </div>
   );
