@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import MyComponent from './components/MyComponent';
 import Estado from './components/Estado';
+import RenderizadoCondicional from './components/RenderizadoCondicional';
 
 function App() {
   const numbers = [1, 2, 3];
@@ -22,6 +23,8 @@ function App() {
       </div>
       <hr />
       <Estado />
+      <hr />
+      <RenderizadoCondicional />
       <div></div>
     </div>
   );
