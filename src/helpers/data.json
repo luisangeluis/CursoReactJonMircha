@@ -1,0 +1,24 @@
+{
+  "frameworks": [
+    {
+      "id": 1,
+      "name": "React",
+      "message": "hola"
+    },
+    {
+      "id": 2,
+      "name": "Angular",
+      "message": "hola"
+    },
+    {
+      "id": 3,
+      "name": "Vue",
+      "message": "hola"
+    },
+    {
+      "id": 4,
+      "name": "Svelt",
+      "message": "hola"
+    }
+  ]
+}

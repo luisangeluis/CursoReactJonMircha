@@ -3,6 +3,7 @@ import './App.css';
 import MyComponent from './components/MyComponent';
 import Estado from './components/Estado';
 import RenderizadoCondicional from './components/RenderizadoCondicional';
+import RenderizadoElementos from './components/RenderizadoElementos';
 
 function App() {
   const numbers = [1, 2, 3];
@@ -25,7 +26,8 @@ function App() {
       <Estado />
       <hr />
       <RenderizadoCondicional />
-      <div></div>
+      <hr />
+      <RenderizadoElementos />
     </div>
   );
 }

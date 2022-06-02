@@ -35,7 +35,7 @@ export default class RenderizadoCondicional extends Component {
     return (
       <div>
         <h2>Renderizado condicional</h2>
-        <p>{this.state.session ? <Login /> : <Logout />}</p>
+        {this.state.session ? <Login /> : <Logout />}
         <button onClick={this.switchSession}>
           {this.state.session ? 'Logout' : 'Login'}
         </button>
