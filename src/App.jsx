@@ -4,6 +4,7 @@ import MyComponent from './components/MyComponent';
 import Estado from './components/Estado';
 import RenderizadoCondicional from './components/RenderizadoCondicional';
 import RenderizadoElementos from './components/RenderizadoElementos';
+import Events from './components/Events';
 
 function App() {
   const numbers = [1, 2, 3];
@@ -28,6 +29,8 @@ function App() {
       <RenderizadoCondicional />
       <hr />
       <RenderizadoElementos />
+      <hr />
+      <Events />
     </div>
   );
 }
