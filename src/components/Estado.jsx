@@ -25,6 +25,7 @@ export default class Estado extends Component {
       });
     }, 1000);
   }
+
   render() {
     return (
       <div>

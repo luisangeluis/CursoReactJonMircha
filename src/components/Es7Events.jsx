@@ -1,15 +1,9 @@
 import React, { Component } from 'react';
 
 export default class Events extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      contador: 0,
-    };
-    //bindeo cayó en deshuso
-    // this.increaseCount = this.increaseCount.bind(this);
-  }
+  state = {
+    contador: 0,
+  };
 
   increaseCount = () => {
     console.log(this);
@@ -17,10 +11,11 @@ export default class Events extends Component {
       contador: this.state.contador + 1,
     });
   };
+
   render() {
     return (
       <div>
-        <h2>Eventos en componentes de clase con ES6</h2>
+        <h2>Eventos en componentes de clase con ES7</h2>
         <p>{this.state.contador}</p>
         <button onClick={this.increaseCount}>Incrementar</button>
       </div>
