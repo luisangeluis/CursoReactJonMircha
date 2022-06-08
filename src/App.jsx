@@ -6,6 +6,7 @@ import RenderizadoCondicional from './components/RenderizadoCondicional';
 import RenderizadoElementos from './components/RenderizadoElementos';
 import Events from './components/Events';
 import Es7Events from './components/Es7Events';
+import MasSobreEventos from './components/MasSobreEventos';
 
 function App() {
   const numbers = [1, 2, 3];
@@ -34,6 +35,8 @@ function App() {
       <Events />
       <hr />
       <Es7Events />
+      <hr />
+      <MasSobreEventos />
     </div>
   );
 }
