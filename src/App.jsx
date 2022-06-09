@@ -7,6 +7,7 @@ import RenderizadoElementos from './components/RenderizadoElementos';
 import Events from './components/Events';
 import Es7Events from './components/Es7Events';
 import MasSobreEventos from './components/MasSobreEventos';
+import Padre from './components/ComunicacionComponentes';
 
 function App() {
   const numbers = [1, 2, 3];
@@ -37,6 +38,8 @@ function App() {
       <Es7Events />
       <hr />
       <MasSobreEventos />
+      <hr />
+      <Padre />
     </div>
   );
 }
