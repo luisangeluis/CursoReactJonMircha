@@ -15,7 +15,7 @@ export default class RenderizadoElementos extends Component {
   }
 
   render() {
-    console.log(data.frameworks);
+    // console.log(data.frameworks);
     return (
       <div>
         <h2>Renderizado de elementos</h2>
