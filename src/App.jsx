@@ -9,7 +9,7 @@ import Es7Events from './components/Es7Events';
 import MasSobreEventos from './components/MasSobreEventos';
 import Padre from './components/ComunicacionComponentes';
 import CicloVida from './components/CicloVida';
-
+import AjaxApis from './components/AjaxApis';
 function App() {
   const numbers = [1, 2, 3];
   const person = {
@@ -43,6 +43,8 @@ function App() {
       <Padre />
       <hr />
       <CicloVida />
+      <hr />
+      <AjaxApis />
     </div>
   );
 }
