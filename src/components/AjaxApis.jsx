@@ -21,7 +21,7 @@ class AjaxApis extends Component {
     axios
       .get('https://pokeapi.co/api/v2/pokemon/')
       .then((res) => {
-        console.log(res.data.results);
+        // console.log(res.data.results);
         const pokemons = [];
         res.data.results.forEach((element) => {
           axios

@@ -10,6 +10,7 @@ import MasSobreEventos from './components/MasSobreEventos';
 import Padre from './components/ComunicacionComponentes';
 import CicloVida from './components/CicloVida';
 import AjaxApis from './components/AjaxApis';
+import Contador from './components/Contador';
 function App() {
   const numbers = [1, 2, 3];
   const person = {
@@ -45,6 +46,8 @@ function App() {
       <CicloVida />
       <hr />
       <AjaxApis />
+      <hr />
+      <Contador />
     </div>
   );
 }
